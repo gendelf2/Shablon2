@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document</title>
+
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0S">
+<link rel="stylesheet" type="text/css" href="libs/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="libs/animate.css">
+<script src="libs/jquery-1.12.0.js" type="text/javascript"></script>
+    <script src="libs/wow.min.js"></script>
+    <script>
+     new WOW().init();
+     </script>
+     <script type="text/javascript">
+    $(document).ready(function(){
+      var touch = $('.touch-menu');
+        var menu = $('.nav');
+     
+        $(touch).on('click', function(e) {
+            e.preventDefault();
+            menu.slideToggle();
+        });
+        $(window).resize(function(){
+            var wid = $(window).width();
+            if(wid > 715 && menu.is(':hidden')) {
+                menu.removeAttr('style');
+            }
+        });
+        
+    });
+  </script>
+</head>
+<body>
+     <div class="wrapper">
+       <div class="header">
+         <div class="container clearfix">
+           <div class="logo">
+             <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+          <div class="menu">
+            <a href="#" class="touch-menu">MENU</a>
+           <nav>
+             <ul class="nav shadow">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">journal</a></li>
+               <li><a href="#">service</a></li>
+               <li><a href="#">feature</a></li>
+              <li><a href="#">contact</a></li>
+             </ul>
+            </nav>
+           </div>
+          </div>
+         </div>
+      <div class="slider">
+         <div class="container clearfix">
+	        <h2 class="slider-first roboto shadow">We are a digital & branding agency based in London.</h2>
+            <h2 class="slider-second roboto shadow">We love to turn great ideas into beautiful products.</h2>
+             <button class="butt shadow">SEE PORTFOLIO</button>
+         </div>
+       </div>
+<div class="service">
+     <div class="container clearfix">
+       <div class="item clearfix wow bounceInUp" data-wow-daley="2.5s" data-wow-offset="240">
+         <div class="items">
+	       <div class="top1">
+	          <div class="span1">
+	          </div>
+	       </div>
+	      <h2 class="robot">Pellentesque</h2>
+	   	  <p class="reg">Nulla vitae  libero, a pharetra augue.<br>Integer posuere erat a ante venenatis<br> condimentum velit dapibus</p>
+	    </div>
+<div class="items">
+	<div class="top2">
+	<div class="span2">
+		</div>
+		</div>
+		<h2 class="robot">Consectetur</h2>
+		<p class="reg">Vestibulum id ligula porta  euismod <br> semper. Aenean lacinia bibendum<br> nulla sed consectetur dui </p>
+</div>
+<div class="items">
+	<div class="top3">
+	  <div class="span3">
+		</div>
+		</div>
+		<h2 class="robot">Tristiquet</h2>
+		<p class="reg">Fusce dapibus, cursus commodo, <br>tortor mauris condimentum nibh, ut<br>fermentum massa justo risus</p>
+</div>
+   <div class="items">
+	<div class="top4">
+	<div class="span4">
+		</div>
+		</div>
+		<h2 class="robot">Fermentum</h2>
+		<p class="reg">Aenean eu leo quam. Pellentesque <br>ornare sem lacinia quam venenatis vestibulum sagittis lacus mollis.</p>
+    </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="work">
+     <div class="container clearfix">
+      <h2 class="zag wow bounceInUp" data-wow-delay="0.5s" data-wow-offset="10">our latest works</h2>
+       <div class="work-items wow bounceInLeft" data-wow-delay="1.2s" data-wow-offset="45">
+       	<a href="#"><img src="images/post-1.png" alt="post"></a>
+       	<h2 class="robot">Nobis Business Card</h2>
+       	<h2 class="work_zag2">Business Card Grapchic</h2>
+       	<p class="work_p">Sed posuere consectetur est at lobortis. Porta sagittis lacus <br> vel augue laoreet rutrum.</p>
+       </div>
+       <div class="work-items wow bounceInUp" data-wow-delay="1.2s" data-wow-offset="45">
+       	<a href="#"><img src="images/post-2.png" alt="post"></a>
+       	<h2 class="robot">New Fun Project</h2>
+       	<h2 class="work_zag2">Web Design, Application</h2>
+       	<p class="work_p">Nulla vitae elit libero, a pharetra augue. Donec sed odio dui.<br> Vestibulum id ligula porta felis.</p>
+       </div>
+       <div class="work-items wow bounceInRight" data-wow-delay="1.2s" data-wow-offset="45">
+       	<a href="#"><img src="images/post-3.png" alt="post"></a>
+       	<h2 class="robot">Passionaries Branding Cover</h2>
+       	<h2 class="work_zag2">Branding, Graphic Design</h2>
+       	<p class="work_p">Curabitur blandit tempus porttitor. Donec id elit non mi porta <br> gravida at eget metus </p>
+       </div>
+
+
+     </div>
+
+
+   </div>
+
+   <div class="section">
+      <div class="container clearfix">
+         <img src="images/kav.png" alt="picture" class="wow bounceInUp" data-wow-delay="0.7s" data-wow-offset="10" >
+         <h2 class="section_item wow bounceInUp" data-wow-delay="1s" data-wow-offset="10">Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta <br> gravida at eget metus. Duis mollis, est non commodo luctus erat porttitor. </h2>
+      </div>
+   </div>
+
+   <div class="footer">
+      <div class="container">
+      	<div class="footer-item clearfix">
+         <div class="footer-items get clearfix wow bounceInLeft" data-wow-delay="1.3s" data-wow-offset="10" >
+           <h2 class="footer_zag">get in touch</h2>
+           <p class="footer_p mg">Fusce dapibus, tellus commodo, tortor <br>
+           mauris condimentum utellus fermentum,<br>
+           porta sem malesuada magna.    
+           </p>
+            <ul class="kav footer_p mg">
+             <li class="kav-1">Moonshine Street No:14/05<br>
+
+              Light City, Jupiter</li>
+             <li class="kav-2">0247 541 65 87</li>
+             <li class="kav-3">support@longwave.com</li>
+            </ul>
+
+           </div>
+           <div class="footer-items clearfix wow bounceInLeft" data-wow-delay="1.3s" data-wow-offset="10" >
+           <h2 class="footer_zag">twitter</h2>
+            <ul class="twitter">
+                 <li class="footer_p">Aenean lacinia bibendum nulla sed<br>
+                 	leo posuere a ante venenatis<br>
+                    dapibus posuere velit aliquet.
+                 </li>
+                 <li class="footer_p">Donec ullamcorper metus auctor<br>
+                   fringilla. Nullam quis risus eget.
+                 </li>
+                 <li class="footer_p">Vestibulum id ligula posta euismod semper. Maecanas faucibus mollis.</li>
+                
+            </ul>
+           </div>
+           <div class="footer-items clearfix  wow bounceInRight" data-wow-delay="1.3s" data-wow-offset="10">
+           <h2 class="footer_zag">popular posts</h2>
+           <p class="footer_p mg" >Vivamus sagittis lacus vel augue<br>
+              laoreet rutrum dolor auctor.<br>
+              14 Nov, 2012
+           </p>
+            <p class="footer_p mg"> Scelerisque nisl consectetur et.<br>
+              22 May, 2012 
+            </p>
+            <p class="footer_p mg">Pellentesque ornare sem lacinia<br>
+              quam venenatis vestibulum.<br>
+              15 July, 2012 
+            </p>
+           </div>
+           <div class="footer-items about clearfix  wow bounceInRight" data-wow-delay="1.3s" data-wow-offset="10">
+           <h2 class="footer_zag">about us</h2>
+           <p class="footer_p mg">Vestibulum id ligula porta felis<br> euismod semper. Duis mollis, est non<br> commodo luctus, nisi erat porttitor<br> ligula, eget lacinia odio sem nec elit.</p>
+           <p class="footer_p mg">Cum sociis natoque penatibus et <br>
+            magnis dis parturient montes, nascetur<br>
+            ridiculus mus curabitur blandit tempus.
+
+           </p>
+          </div>
+          </div>
+           
+      </div>
+
+       <div class="footer_2 container clerfix">
+       <h2 class="footer_p wow bounceInLeft" data-wow-delay="0.5s" data-wow-offset="10">© 2013 Marble. All rights reserved. Theme by elemis.</h2>
+       </div>
+    </div>
+   </div>
+</body>
+</html>
+
